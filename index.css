@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #64c9b6;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    margin: 10px;
+    padding: 10px;
+    background-color: #6386cd;
+    box-shadow: 0 2px 4px rgba(68, 97, 200, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 10px; 
+} 
+
+{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.photo {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.photo.main {
+    max-width: 400px;
+    background-color: #f5f5f5;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+ body {
+    font-family: Gill Sans Extrabold, cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6695ba;
+    color: #9bf7da;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.photo-container {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.photo-container img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(116, 181, 255);
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.photo-container.left {
+    order: -1;
+}
+
+.photo-container.right {
+    order: 1;
+}
+
+footer {
+    background-color: #6695ba;
+    color: #9bf7da;
+    padding: 10px;
+    text-align: center;
+} 
+
+footer {
+    background-color: #6695ba;
+    color: #9bf7da;
+    padding: 10px;
+    text-align: center;
+}
+.foto {
+    max-width: 300px;
+    max-height: 200px;
+}
