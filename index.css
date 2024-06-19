@@ -62,3 +62,16 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+#reloj-digital {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);  /* Fondo negro semi transparente */
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* Sombra para un mejor contraste */
+    z-index: 1000;  /* Se asegura de que esté por encima de otros elementos */
+}
