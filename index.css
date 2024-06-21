@@ -76,20 +76,53 @@ footer {
     z-index: 1000;  /* Se asegura de que esté por encima de otros elementos */
 }
 
-#quizForm {
-    margin-top: 20px;
+.quiz-container {
+    text-align: center;
+    margin: 20px 0;
 }
 
-.question {
-    margin-bottom: 15px;
+#start-quiz {
+    background-color: #6695ba;
+    color: #9bf7da;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(116, 181, 255);
+}
+
+#start-quiz:hover {
+    background-color: #567a9c;
 }
 
 #countdown {
-    font-size: 1.5em;
-    color: red;
+    font-size: 24px;
+    margin-top: 20px;
 }
 
-#result {
-    font-size: 1.5em;
-    color: green;
+button {
+    background-color: #6695ba;
+    color: #9bf7da;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(116, 181, 255);
+    margin-top: 20px; /* Espacio superior para separar del formulario */
+}
+
+button:hover {
+    background-color: #567a9c;
+}
+
+button:active {
+    background-color: #476a84;
+    box-shadow: 0 1px 2px rgb(116, 181, 255);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(116, 181, 255, 0.6);
 }
