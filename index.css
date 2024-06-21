@@ -75,3 +75,21 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* Sombra para un mejor contraste */
     z-index: 1000;  /* Se asegura de que esté por encima de otros elementos */
 }
+
+#quizForm {
+    margin-top: 20px;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+#countdown {
+    font-size: 1.5em;
+    color: red;
+}
+
+#result {
+    font-size: 1.5em;
+    color: green;
+}
